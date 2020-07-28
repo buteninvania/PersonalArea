@@ -1,0 +1,53 @@
+.contactsContainer {
+    margin: 10px auto;
+    width: 85%;
+    transition-duration: 0.1s;
+}
+
+.contactItem {
+    color: #090909;
+    box-shadow: 1px 2px 6px #0e0d0d;
+    text-shadow: 1px 1px 2px #6a6767;
+    display: grid;
+    grid-template-areas: "n e"
+                         "p t";
+    grid-template-columns: 5fr 5fr;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    transition-duration: 0.2s;
+    border-radius: 7px;
+}
+
+.contactItem:hover {
+    color: #f3f1f1;
+    background-color: #3d3d47;
+    text-shadow: 1px 1px 2px #050505;
+}
+
+.name {
+    grid-area: n;
+}
+.email {
+    grid-area: e;
+}
+.phone {
+    grid-area: t;
+}
+.position {
+    grid-area: p;
+}
+.btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.btn svg {
+    color: #e8e8ef;
+    transition-duration: 0.2s;
+}
+.btn svg:hover {
+    color: #ff0000;
+}
+
