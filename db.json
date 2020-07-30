@@ -1,25 +1,11 @@
 {
   "contacts": [
     {
-      "name": "Иван",
+      "name": "Иван Бутенин",
       "email": "buteninvania@gmail.com",
       "phoneNumber": "89516972282",
-      "position": "Team Lead",
-      "id": 18
-    },
-    {
-      "name": "Иван",
-      "email": "buteninvania@gmail.com",
-      "phoneNumber": "89516972282",
-      "position": "Team Lead",
-      "id": 19
-    },
-    {
-      "name": "Иван",
-      "email": "buteninvania@gmail.com",
-      "phoneNumber": "89516972282",
-      "position": "Team Lead",
-      "id": 20
+      "position": "Middle Developer",
+      "id": 2
     }
   ],
   "comments": [],
