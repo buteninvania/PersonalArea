@@ -1,0 +1,60 @@
+.formControl input {
+    width: 100%;
+    border: 1px solid #999393;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 6px #0e0d0d;
+    font-size: 25px;
+    color: #a8a4a4;
+    text-shadow: 1px 1px 2px #a8a2a2;
+    transition-duration: 0.3s;
+}
+
+.formControl.error input {
+    background-color: #cd7781;
+}
+
+.formControl input:hover {
+    color: #0e0d0d;
+}
+
+.btnSubmit {
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.btnSubmit button {
+    color: #111111;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #a8a2a2;
+    box-shadow: 1px 2px 6px #0e0d0d;
+    border-radius: 4px;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.btnSubmit button:hover {
+    background-color: #1033d7;
+    color: #c0c0ea;
+    text-shadow: 1px 1px 1px #030303;
+}
+
+.formControl.error span {
+    color: #f10722;
+}
+
+.formSummaryError {
+    background-color: #cd7781;
+    color: #0a0a0a;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #100000;
+    border-radius: 3px;
+    box-shadow: 1px 2px 6px #0e0d0d;
+    text-shadow: 1px 1px 2px #a8a2a2;
+}

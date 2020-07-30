@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px 5px 5px;
+    grid-area: h;
+    background-color: #3d3d47;
+    color: #f1ebeb;
+    box-shadow: 1px 2px 6px #0e0d0d;
+    text-shadow: 1px 1px 1px #0a0a0a;
+    border-radius: 10px;
+}
+.label {
+    font-size: 40px;
+}
+
+.logo img {
+    height: 190px;
+    cursor: pointer;
+}
+
+.login {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+.login div {
+    margin-right: 25px;
+}
+
